@@ -9,4 +9,3 @@ router.put("/:id", questionController.updateQuestion);
 router.delete("/:id", questionController.deleteQuestion);
 router.delete("/", questionController.deleteAllQuestions);
 module.exports = router;
-    
